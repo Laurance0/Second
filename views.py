@@ -6,3 +6,6 @@ def index(request):
 
 def login(request):
     return redirect('/index')
+
+def logout(request):
+    return redirect('/index')
